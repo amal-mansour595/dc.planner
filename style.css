@@ -1,0 +1,305 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Libre+Caslon+Display&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0; 
+}
+nav img{
+    width:286px;
+    height:33px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    
+
+}
+nav a{
+text-decoration: none;
+padding: 20px;
+color: #ababab;
+font-family: "Roboto", serif;
+}
+nav a:hover{
+    color: #00b39b;
+}
+#active{
+    color:#00b39b;
+}
+/* section1*/
+.container1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+/* section2*/
+.container2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color:#00b39b;
+}
+.container2 h2{
+    
+    font-size: 2.125rem;
+    color: #00b39b;
+    font-family: "Work Sans", serif;
+    margin: 1em 0;
+    font-weight: 300;
+    letter-spacing: -.6px;
+}
+/* section3*/
+.container3 {
+    display: flex;
+    padding: 10px 200px; }
+    .container3 p{
+        margin:10px;
+        text-align: justify;
+        font-weight: 400;
+        font-family: Arial, sans-serif;
+        color: #747474; 
+
+        }
+        /* section2*/
+        .container4{
+            display: flex;
+            justify-content: space-between;
+            padding:0px 200px;
+            margin-top: 60px;
+            
+            
+        }
+        .container4 .vert{
+            width:240px;
+            height:260px;
+            background-color: #00ccb1;
+            border-radius: 12px;
+            padding: 40px;
+            margin-bottom: 40px;
+            font-size: 25px;
+            color: white;
+            font-family:'Times New Roman', Times, serif;
+            
+        }
+        .container4 select{
+            margin-top: 88px;
+            background-color: transparent;
+            outline: none;
+            border: none;
+            text-decoration: underline;
+            color: white;
+            font-size: 20px;
+            
+        }
+        .container4 p{
+            margin-top: 20px;
+        
+        }
+        .container4 option{
+            color: black;
+        }
+        .container4 .bleu{
+            width:240px;
+            height:260px;
+            background-color: #3d83df;
+            border-radius: 12px;
+            padding: 40px;
+            margin-bottom: 40px;
+            font-size: 25px;
+            color: white;
+            font-family:'Times New Roman', Times, serif; }
+            .container4 .noir{
+                width:240px;
+                height:260px;
+                background-color: #1b2734;
+                border-radius: 12px;
+                padding: 40px;
+                margin-bottom: 40px;
+                font-size: 25px;
+                color: white;
+                font-family:'Times New Roman', Times, serif;
+                
+            }
+            .container4 .select-selected{
+                margin-top: 30px;
+                background-color: transparent;
+                outline: none;
+                border: none;
+                text-decoration: underline;
+                color: white;
+                font-size: 20px;
+            }
+            .container5{
+                display: flex;
+                justify-content: space-around;
+                padding: 20px 199px;
+            }
+            .container5 img{
+                width:90px;
+                filter: grayscale(100%);
+                margin: 20px;
+            }
+            .container5 svg{
+                fill: rgb(206, 202, 202);
+                width:140px;
+                margin: 20px;
+            }
+            .container5 ul{
+                display: flex;
+                flex-wrap: wrap;
+                list-style: none;
+                align-items: center;
+                justify-content: space-around;
+            }
+            .container5 h1{
+                width: 95%;
+                color: #00b39b;
+                font-family:sans-serif;
+                
+            }
+            .container5 .gipo{
+                width: 50px;
+            }
+            .container6{
+                display: flex;
+                background-color: #e5faf8;
+                margin-bottom: 50px;
+                height: 540px;
+            }
+            .container6 .box-left {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width:50%;
+                height: 540px;
+                overflow: hidden;
+            }
+            .box-left h1{
+margin-top: 30px;
+font-size: 35px;
+color: #00b39b;
+            }
+            .box-left p{
+                margin-top: 30px;
+                text-align: justify;
+                font-size: 17px;
+                padding: 0px 106px;
+                            }
+                            .box-left img{
+                                margin-top: 30px; 
+                                width:70%; }
+                            .container6 .box-right{
+                            display: flex;
+                                    width:50px
+                                }
+                            
+                                .box-right .box{
+                                
+                                    height: 200px;
+                                    width:180px;
+                                    border-radius: 10px;
+                                    background-color: white;
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    margin: 40px;
+                                    margin-top: -68;
+                                    
+                                }
+                                .box-right img{
+                                
+                                    width:35px;
+                                }
+                                .box1{
+                                    margin-top: 20px;
+                                }
+                                .box-right h3{
+                                color:#00b39b;
+                                text-align: center;
+                                }
+                                .box-right p{
+                                    text-align: center;
+                                    }
+                                    .container7{
+                                        margin-top: 30px;
+                                        display: flex;
+                                        align-items: center;
+                                        flex-direction: column;
+                                        padding:30px 425px;
+                                    }
+                                    .container7 h2{ 
+                                        font-size: 25px;
+                                        color: #00b39b;
+                                        }
+                                    .container7 p{ 
+                                        line-height:1.8 ;
+                                        text-align: justify;
+                                        }
+                                        
+                                        .container8 .card  { 
+                                        width: 332px;
+                                        height: 368px;
+                                        border-radius: 20px;
+                                        box-shadow: -3px 8px 36px -12px rgba(0,0,0,0.75);
+                                        -webkit-box-shadow: -3px 8px 36px -12px rgba(0,0,0,0.75);
+                                        -moz-box-shadow: -3px 8px 36px -12px rgba(0,0,0,0.75);
+margin-top: 30px;
+margin: 20px ;
+
+                                        
+                                        }
+                                        .container8{
+                                            display: flex;
+                                            flex-wrap: wrap;
+                                            padding: 0px 142px;
+                                            
+                                        }
+                                        .container8 a:hover{
+                                            transform: scale(1.1); 
+                                        }
+                                        .container8 a{
+                                            text-decoration: none; 
+                                        }
+                                        .sous-card{
+                                            display: flex;
+                                            justify-content: space-around;
+                                            padding: 20px;
+                                            align-items: center;
+                                            }
+                                            .card
+                                            .sous-card h3{ 
+                                            color: #747474;
+                                            }
+                                            .sous-card button{ 
+                                            border-radius: 4px;
+                                                
+                                                margin: 13px;
+                                                background-color: #3d83df;
+                                                }
+                                                #bogota {
+                                                height: 300px;
+                                                }
+                                        .container8 img{
+                                            width:332px;
+                                            border-radius:20px 20px 0px 0px;
+                                        }
+                                        footer{
+                                            background-color: white;
+                                            margin-top: 90px;
+                                            padding: 0px 222px;
+                                        }
+                                        footer p{
+                                            color:#747474 ;
+                                            text-align: center;
+                                        }
+                                        footer a{
+                                            text-decoration: none ;
+                                            color: #3d83df;
+                                        }

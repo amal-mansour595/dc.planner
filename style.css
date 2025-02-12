@@ -18,8 +18,8 @@ nav{
     justify-content: space-around;
     align-items: center;
     background-color: white;
-    
-
+    position: sticky;
+    top:0;
 }
 nav a{
 text-decoration: none;
